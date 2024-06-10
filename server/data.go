@@ -1,10 +1,6 @@
 package main
 
-type album struct {
-	ID     string `json:"id"`
-	Title  string `json:"title"`
-	Artist string `json:"artist"`
-}
+
 
 var albums = []album{
 	{ID: "1", Title: "In The Aeroplane Over The Sea", Artist: "Neutral Milk Hotel"},
