@@ -13,7 +13,6 @@ func fetchAlbumByID(c *gin.Context) {
 	for _, a := range albums {
 		if a.ID == id {
 			c.IndentedJSON(ok, a)
-
 		}
 	}
 }
